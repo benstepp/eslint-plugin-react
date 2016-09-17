@@ -34,8 +34,8 @@ This change log adheres to standards from [Keep a CHANGELOG](http://keepachangel
 
 ## [6.2.0] - 2016-08-28
 ### Added
-* Adds `no-unused-prop-types` rule ([#226][] @EvNaverniouk)
-* Add `style-prop-object` rule ([#715][] @petersendidit)
+* Add [`no-unused-prop-types`](docs/rules/no-unused-prop-types.md) rule ([#226][] @EvNaverniouk)
+* Add [`style-prop-object`](docs/rules/style-prop-object.md) rule ([#715][] @petersendidit)
 * Add auto fix for `self-closing-comp` ([#770][] @pl12133)
 * Add support for `typeAnnotations` in `sort-comp` ([#235][] @dozoisch)
 * Add support for `PureComponent` in `prefer-stateless-function` ([#781][] @tiemevanveen)
@@ -86,8 +86,8 @@ This change log adheres to standards from [Keep a CHANGELOG](http://keepachangel
 ## [6.1.0] - 2016-08-14
 ### Added
 * Add `React.PureComponent` support ([#737][])
-* Add `forbid-component-props` rule ([#314][] @lencioni)
-* Add `no-danger-with-children` rule ([#710][] @petersendidit)
+* Add [`forbid-component-props`](docs/rules/forbid-component-props.md) rule ([#314][] @lencioni)
+* Add [`no-danger-with-children`](docs/rules/no-danger-with-children.md) rule ([#710][] @petersendidit)
 * Add pragma for `createClass` factory method ([#725][] @zurawiki)
 
 ### Fixed
@@ -121,7 +121,7 @@ This change log adheres to standards from [Keep a CHANGELOG](http://keepachangel
 ## [6.0.0] - 2016-08-01
 ### Added
 * Add an `all` sharable configuration with all rules enabled ([#674][] @pfhayes)
-* Add `no-find-dom-node` rule ([#678][])
+* Add [`no-find-dom-node`](docs/rules/no-find-dom-node.md) rule ([#678][])
 * Add `shorthandLast` option to `jsx-sort-props` ([#391][] @mathieumg)
 * Add `allowDecorators` option to `require-optimization` ([#669][] @Tom910)
 
@@ -210,10 +210,10 @@ This change log adheres to standards from [Keep a CHANGELOG](http://keepachangel
 
 ## [5.2.0] - 2016-06-17
 ### Added
-* Add `require-optimization` rule ([#240][] @EvNaverniouk)
-* Add `jsx-filename-extension` rule  ([#495][] @lencioni)
-* Add `no-render-return-value` rule ([#531][] @iamdustan)
-* Add `no-comment-textnodes` rule ([#616][] @benvinegar)
+* Add [`require-optimization`](docs/rules/require-optimization.md) rule ([#240][] @EvNaverniouk)
+* Add [`jsx-filename-extension`](docs/rules/jsx-filename-extension.md) rule  ([#495][] @lencioni)
+* Add [`no-render-return-value`](docs/rules/no-render-return-value.md) rule ([#531][] @iamdustan)
+* Add [`no-comment-textnodes`](docs/rules/jsx-no-comment-textnodes.md) rule ([#616][] @benvinegar)
 * Add `objectLiterals` option to `jsx-curly-spacing` ([#388][], [#211][] @casesandberg @ljharb)
 * Add option to `self-closing-comp` to check html tags ([#572][] @gitim)
 * Add `ignore` option to `no-unknown-property` rule ([#631][] @insin)
@@ -266,7 +266,7 @@ This change log adheres to standards from [Keep a CHANGELOG](http://keepachangel
 
 ## [5.1.0] - 2016-05-10
 ### Added
-* Add `jsx-no-target-blank` rule ([#582][] @Gasparila)
+* Add [`jsx-no-target-blank`](docs/rules/jsx-no-target-blank.md) rule ([#582][] @Gasparila)
 * Add `allowAllCaps` and `ignore` options to `jsx-pascal-case` ([#575][])
 * Add class properties support to `require-render-return` ([#564][])
 
@@ -303,7 +303,7 @@ This change log adheres to standards from [Keep a CHANGELOG](http://keepachangel
 
 ## [5.0.0] - 2016-04-17
 ### Added
-* Add `jsx-first-prop-new-line` rule ([#410][] @jseminck)
+* Add [`jsx-first-prop-new-line`](docs/rules/jsx-first-prop-new-line.md) rule ([#410][] @jseminck)
 
 ### Breaking
 * Update rules for React 15:
@@ -334,7 +334,7 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [4.3.0] - 2016-04-07
 ### Added
-* Add `require-render-return` rule ([#482][] @shmuga)
+* Add [`require-render-return`](docs/rules/require-render-return.md) rule ([#482][] @shmuga)
 * Add auto fix for `jsx-equals-spacing` ([#506][] @peet)
 * Add auto fix for `jsx-closing-bracket-location` ([#511][] @KevinGrandon)
 
@@ -397,7 +397,7 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 ## [4.2.0] - 2016-03-05
 ### Added
 * Add support for Flow annotations on stateless components ([#467][])
-* Add `prefer-stateless-function` rule ([#214][])
+* Add [`prefer-stateless-function`](docs/rules/prefer-stateless-function.md) rule ([#214][])
 * Add auto fix for `jsx-indent-props` ([#483][] @shioju)
 
 ### Fixed
@@ -439,7 +439,7 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [4.0.0] - 2016-02-19
 ### Added
-* Add `jsx-space-before-closing` rule ([#244][] @ryym)
+* Add [`jsx-space-before-closing`](docs/rules/jsx-space-before-closing.md) rule ([#244][] @ryym)
 * Add support for destructing in function signatures to `prop-types` ([#354][] @lencioni)
 
 ### Breaking
@@ -486,7 +486,7 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [3.16.0] - 2016-01-24
 ### Added
-* Add `jsx-equals-spacing` rule ([#394][] @ryym)
+* Add [`jsx-equals-spacing`](docs/rules/jsx-equals-spacing.md) rule ([#394][] @ryym)
 * Add auto fix for `wrap-multiline`
 * Add auto fix for `jsx-boolean-value`
 * Add auto fix for `no-unknown-property`
@@ -527,7 +527,7 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [3.14.0] - 2016-01-05
 ### Added
-* Add `jsx-indent` rule ([#342][])
+* Add [`jsx-indent`](docs/rules/jsx-indent.md) rule ([#342][])
 * Add shared setting for pragma configuration ([#228][] @NickStefan)
 
 ### Fixed
@@ -556,7 +556,7 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [3.13.0] - 2015-12-24
 ### Added
-* Add `no-string-refs` rule ([#341][] @Intellicode)
+* Add [`no-string-refs`](docs/rules/no-string-refs.md) rule ([#341][] @Intellicode)
 * Add support for propTypes assigned via a variable in `prop-types` ([#355][])
 
 ### Fixed
@@ -578,8 +578,8 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [3.12.0] - 2015-12-20
 ### Added
-* Add `no-deprecated` rule ([#356][] @graue)
-* Add `no-is-mounted` rule ([#37][] @lencioni)
+* Add [`no-deprecated`](docs/rules/no-deprecated.md) rule ([#356][] @graue)
+* Add [`no-is-mounted`](docs/rules/no-is-mounted.md) rule ([#37][] @lencioni)
 * Add `never` option to `prefer-es6-class` rule ([#359][] @pwmckenna)
 
 ### Fixed
@@ -631,7 +631,7 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [3.11.0] - 2015-11-29
 ### Added
-* Add `jsx-handler-names` rule ([#315][] @jakemmarsh)
+* Add [`jsx-handler-names`](docs/rules/jsx-handler-names.md) rule ([#315][] @jakemmarsh)
 * Add SVG attributes support to `no-unknown-property` ([#318][])
 * Add shorthandFirst option to `jsx-sort-props` ([#336][] @lucasmotta)
 
@@ -655,7 +655,7 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [3.10.0] - 2015-11-21
 ### Added
-* Add `jsx-pascal-case` rule ([#306][] @jakemmarsh)
+* Add [`jsx-pascal-case`](docs/rules/jsx-pascal-case.md) rule ([#306][] @jakemmarsh)
 
 ### Fixed
 * Fix crash on incomplete class property declaration ([#317][] @dapetcu21)
@@ -668,7 +668,7 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [3.9.0] - 2015-11-17
 ### Added
-* Add `jsx-key` rule ([#293][] @benmosher)
+* Add [`jsx-key`](docs/rules/jsx-key.md) rule ([#293][] @benmosher)
 * Add `allow-in-func` option to `no-did-update-set-state` ([#300][])
 * Add option to only enforce `jsx-closing-bracket-location` rule to one type of tag (nonEmpty or selfClosing) ([#307][])
 
@@ -719,7 +719,7 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [3.7.0] - 2015-11-05
 ### Added
-* Add `jsx-no-bind` rule ([#184][] @Daniel15)
+* Add [`jsx-no-bind`](docs/rules/jsx-no-bind.md) rule ([#184][] @Daniel15)
 * Add line-aligned option to `jsx-closing-bracket-location` ([#243][] @alopatin)
 
 ### Fixed
@@ -767,7 +767,7 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 ### Added
 * Add support for stateless function components to `display-name` and `prop-types` ([#237][])
 * Add callbacksLast option to `jsx-sort-props` and `jsx-sort-prop-types` ([#242][] @Daniel15)
-* Add `prefer-es6-class` rule ([#247][] @hamiltondanielb)
+* Add [`prefer-es6-class`](docs/rules/prefer-es6-class.md) rule ([#247][] @hamiltondanielb)
 
 ### Fixed
 * Fix `forbid-prop-types` crash with destructured PropTypes ([#230][] @epmatsw)
@@ -806,8 +806,8 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [3.5.0] - 2015-09-28
 ### Added
-* Add `no-direct-mutation-state` rule ([#133][], [#201][] @petersendidit)
-* Add `forbid-prop-types` rule ([#215][] @pwmckenna)
+* Add [`no-direct-mutation-state`](docs/rules/no-direct-mutation-state.md) rule ([#133][], [#201][] @petersendidit)
+* Add [`forbid-prop-types`](docs/rules/forbid-prop-types.md) rule ([#215][] @pwmckenna)
 
 ### Fixed
 * Fix no-did-mount/update-set-state rules, these rules were not working on ES6 classes
@@ -879,9 +879,9 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [3.3.0] - 2015-08-26
 ### Added
-* Add `jsx-indent-props` rule ([#15][], [#181][])
-* Add `no-set-state rule` ([#197][] @markdalgleish)
-* Add `jsx-closing-bracket-location` rule ([#14][], [#64][])
+* Add [`jsx-indent-props`](docs/rules/jsx-indent-props.md) rule ([#15][], [#181][])
+* Add [`no-set-state`](docs/rules/no-set-state.md) rule ([#197][] @markdalgleish)
+* Add [`jsx-closing-bracket-location`](docs/rules/jsx-closing-bracket-location.md) rule ([#14][], [#64][])
 
 ### Changed
 * Update dependencies
@@ -926,8 +926,8 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [3.2.0] - 2015-08-04
 ### Added
-* Add `jsx-max-props-per-line` rule ([#13][])
-* Add `jsx-no-literals` rule ([#176][] @CalebMorris)
+* Add [`jsx-max-props-per-line`](docs/rules/jsx-max-props-per-line.md) rule ([#13][])
+* Add [`jsx-no-literals`](docs/rules/jsx-no-literals.md) rule ([#176][] @CalebMorris)
 
 ### Changed
 * Update dependencies
@@ -960,7 +960,7 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [3.0.0] - 2015-07-21
 ### Added
-* Add jsx-no-duplicate-props rule ([#161][] @hummlas)
+* Add [`jsx-no-duplicate-props`](docs/rules/jsx-no-duplicate-props.md) rule ([#161][] @hummlas)
 * Add allowMultiline option to the `jsx-curly-spacing` rule ([#156][] @mathieumg)
 
 ### Breaking
@@ -990,8 +990,8 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [2.7.0] - 2015-07-11
 ### Added
-* Add `no-danger` rule ([#138][] @scothis)
-* Add `jsx-curly-spacing` rule ([#142][])
+* Add [`no-danger`](docs/rules/no-danger.md) rule ([#138][] @scothis)
+* Add [`jsx-curly-spacing`](docs/rules/jsx-curly-spacing.md) rule ([#142][])
 
 ### Fixed
 * Fix properties limitations on propTypes ([#139][])
@@ -1129,7 +1129,7 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [2.3.0] - 2015-05-14
 ### Added
-* Add `sort-comp` rule ([#39][])
+* Add [`sort-comp`](docs/rules/sort-comp.md) rule ([#39][])
 * Add `allow-in-func` option to `no-did-mount-set-state` ([#56][])
 
 ### Changed
@@ -1146,7 +1146,7 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [2.2.0] - 2015-04-22
 ### Added
-* Add `jsx-sort-prop-types` rule ([#38][] @AlexKVal)
+* Add [`jsx-sort-props`](docs/rules/jsx-sort-props.md) rule ([#38][] @AlexKVal)
 
 ### Changed
 * Documentation improvements ([#71][] @AlexKVal)
@@ -1176,7 +1176,7 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [2.1.0] - 2015-04-06
 ### Added
-* Add `jsx-boolean-value` rule ([#11][])
+* Add [`jsx-boolean-value`](docs/rules/jsx-boolean-value.md) rule ([#11][])
 * Add support for static methods in `display-name` and `prop-types` ([#48][])
 
 ### Changed
@@ -1213,8 +1213,8 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [2.0.0] - 2015-03-29
 ### Added
-* Add `jsx-sort-props` rule ([#16][])
-* Add `no-unknown-property` rule ([#28][])
+* Add [`jsx-sort-props`](docs/rules/jsx-sort-props.md) rule ([#16][])
+* Add [`no-unknown-property`](docs/rules/no-unknown-property.md) rule ([#28][])
 * Add ignore option to `prop-types` rule
 
 ### Changed
@@ -1251,7 +1251,7 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [1.6.0] - 2015-03-22
 ### Added
-* Add `jsx-no-undef` rule
+* Add [`jsx-no-undef`](docs/rules/jsx-no-undef.md) rule
 * Add `jsx-quotes` rule ([#12][])
 * Add `@jsx` pragma support ([#23][])
 
@@ -1271,7 +1271,7 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [1.5.0] - 2015-03-14
 ### Added
-* Add `jsx-uses-vars` rule
+* Add [`jsx-uses-vars`](docs/rules/jsx-uses-vars.md) rule
 
 ### Fixed
 * Fix `jsx-uses-react` for ESLint 0.17.0
@@ -1289,8 +1289,8 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [1.4.0] - 2015-02-24
 ### Added
-* Add `react-in-jsx-scope` rule ([#5][] @glenjamin)
-* Add `jsx-uses-react` rule ([#6][] @glenjamin)
+* Add [`react-in-jsx-scope`](docs/rules/react-in-jsx-scope.md) rule ([#5][] @glenjamin)
+* Add [`jsx-uses-react`](docs/rules/jsx-uses-react.md) rule ([#6][] @glenjamin)
 
 ### Changed
 * Update `prop-types` to check props usage insead of propTypes presence ([#4][])
@@ -1302,8 +1302,8 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [1.3.0] - 2015-02-24
 ### Added
-* Add `no-did-mount-set-state` rule
-* Add `no-did-update-set-state` rule
+* Add [`no-did-mount-set-state`](docs/rules/no-did-mount-set-state.md) rule
+* Add [`no-did-update-set-state`](docs/rules/no-did-update-set-state.md) rule
 
 ### Changed
 * Update dependencies
@@ -1330,7 +1330,7 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [1.2.0] - 2014-12-29
 ### Added
-* Add `self-closing-comp` rule
+* Add [`self-closing-comp`](docs/rules/self-closing-comp.md) rule
 
 ### Fixed
 * Fix `display-name` and `prop-types` rules
@@ -1339,8 +1339,8 @@ If you're still not using React 15 you can keep the old behavior by setting the 
 
 ## [1.1.0] - 2014-12-28
 ### Added
- * Add `display-name` rule
- * Add `wrap-multilines` rule
+ * Add [`display-name`](docs/rules/display-name.md) rule
+ * Add [`wrap-multilines`](docs/rules/jsx-wrap-multilines.md) rule
  * Add rules documentation
  * Add rules tests
 
